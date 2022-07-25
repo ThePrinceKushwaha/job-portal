@@ -82,23 +82,29 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
         }
     }
 
-    $insert_data= "INSERT INTO `jk_registeredUsers`(
-        `fullname`,
-        `username`,
-        `email`,
-        `password`,
-        `cpassword`,
-        `mobile`,
-        `location`,
-        `reg_date`
+    if(empty($_POST['fullname'])){
+        $fullname="";
+    } else{
+        $fullname=test_input($_POST("fullname"));
+    }
+
+    $insert_data= "INSERT INTO jk_registeredUsers(
+        fullname,
+        -- username,
+        -- email,
+        -- password,
+        -- cpassword,
+        -- mobile,
+        -- location,
+        -- reg_date
     ) VALUES (
         $fullname,
-        $username,
-        $email,
-        $password,
-        $cpassword,
-        $mobile,
-        $location
+        -- $username,
+        -- $email,
+        -- $password,
+        -- $cpassword,
+        -- $mobile,
+        -- $location
     )";
 
     echo $insert_data;
