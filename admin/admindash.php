@@ -10,6 +10,7 @@ else
 }
 ?>
 <?php
-include('header.php');
+include('adminhome.php');
+// include('../header.php');
 
 ?>
