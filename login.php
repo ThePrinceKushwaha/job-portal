@@ -1,7 +1,7 @@
 <?php
 
 include('header.php');
-
+include('dbconnect.php');
 session_start();
 if(isset($_SESSION['uid'])){
     header('location:admin/admindash.php');
@@ -64,18 +64,10 @@ if(isset($_SESSION['uid'])){
     </div>
 </div>
 <?php
-
-
-include 'footer.php';
-
-
-include('dbconnect.php');
-
 if(isset($_POST['login']))
 {
 	$useremail = $_POST['useremail'];
 	$userpassword = $_POST['userpassword'];
-	
 	$query = "SELECT * FROM jk_registeredUsers WHERE email='$useremail' && password='$userpassword'";
 	$run = mysqli_query($conn,$query);
 	$row = mysqli_num_rows($run);
@@ -90,10 +82,16 @@ if(isset($_POST['login']))
 	else
 	{
 		$data=mysqli_fetch_assoc($run);
-		$id = $data['ID'];
+		$id = $data['id'];
 		echo"id = ".$id ; // to display the ID of respective admin from database.
 		$_SESSION['uid']= $id ;
 		header('location:admin/admindash.php'); //redirect
 	}
 }
+
+
+include 'footer.php';
+
+
+
 ?>
