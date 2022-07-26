@@ -1,43 +1,60 @@
 console.log("JS loaded successfully");
 
 
-function validateForm(e) {
-    var fullname = document.getElementById('fullname');
+ // var username = document.getElementById("username").value;
+// console.log(username);
+function validate(e){
 
+    var fullname = document.getElementById("fullname").value;
     var username = document.getElementById("username").value;
-
+// alert(username);
     var email = document.getElementById("email").value;
-    var mobile = document.getElementById("mobile").value;
-    var address = document.getElementById("address").value;
+    // alert(email);
     var password = document.getElementById("password").value;
+    // alert(password);
     var cpassword = document.getElementById("cpassword").value;
+    // alert(cpassword);
+    var mobile = document.getElementById("mobile").value;
+    // alert(mobile);
 
-    var name_pattern = /^[a-z A-Z]{2,30}/;
-    var email_pattern = /^\w+@[a-z A-Z]+?\.[a-z A-Z]{2,3}$/;
-    var phone_pattern = /^[0-9]{10}$/;
-    var password_pattern = /^\w+$/;
-    var age_pattern = /^\d{1,3}$/;
 
-    var address_pattern = /^[a-zA-Z ]{7,}$/;
-    console.log(userName);
+    var usernameCheck = /^[A-Za-z]{5,15}$/;
+    var emailCheck =/^[A-Za-z]{3,}@[A-Za-z]{3,}[.]{1}[A-Za-z]{3}$/;
+
+    if(usernameCheck.test(fullname)){
+        document.getElementById("usererror").innerHTML="";
+    }else{
+        document.getElementById("usererror").innerHTML="* username must invalid. Must be between 5 to 15";
+        // alert("invalid username");
+        return false;
+    }
+    if(usernameCheck.test(username)){
+        document.getElementById("usererror").innerHTML="";
+    }else{
+        document.getElementById("usererror").innerHTML="* username must invalid. Must be between 5 to 15";
+        // alert("invalid username");
+        return false;
+    }
+
+
+    if(emailCheck.test(email)){
+        document.getElementById("emailerror").innerHTML="";
+    }else{
+        document.getElementById("emailerror").innerHTML="* username must invalid. Must be between 5 to 15";
+        // alert("invalid username");
+        return false;
+    }
+
+
+
+    console.log(username);
     console.log(email);
-    console.log(contact);
-    console.log(age);
     console.log(password);
-    console.log(confirmPassword);
+    console.log(cpassword);
+    console.log(mobile);
 
 
-
-    if (userName.search(name_pattern) < 0) {
-        alert("Name pattern doesn't match");
-        return false;
-    }
-    if (email.search(email_pattern) < 0) {
-        alert("please enter the valid email address");
-        return false;
-    }
-
-
+    
 }
 
 

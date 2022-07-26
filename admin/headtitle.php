@@ -23,7 +23,7 @@ else
 			</div>
 			<div class="admin__featuresList">
 				<ul>
-					<li><a href="profile.php"><i class="fa-solid fa-user"></i> Profile</a></li>
+					<li><a href="userprofile.php"><i class="fa-solid fa-user"></i> Profile</a></li>
 					<li><a href=""></a></li>
 					<li><a href="../logout.php"><i class="fa-solid fa-right-from-bracket"></i> Logout</a></li>
 					<li><a href=""></a></li>
@@ -31,7 +31,9 @@ else
 			</div>
 		</div>
 		<div class="left__container">
-
+			<div class="mainbody">
+				<h2>Work under Progress.</h2>
+			</div>
 		</div>
 	</div>
 </div>

@@ -1,18 +1,47 @@
 <?php
-include('connect.php');
+
 session_start();
-if(!empty($_SESSION['uname'])){
+if(isset($_SESSION['uid']))
+{
+	echo "";
+}
+else
+{
+	header('location:../login.php');
+}
+
+include('header.php'); 
 ?>
-    <p>Welcome!<?php
-        $username=$_SESSION['uname']; 
-        echo"";
-        echo "<h3 style='margin-top:-3px;margin-bottom:-7px;text-transform:lowercase;'>".$username."</h3>"; ?>
-    <br/>
-        Details here;
-    </p>
-    <p>
-        <a href="logout.php">LOG OUT</a>
-    </p>
-<?php }else{?>
-    <h1>You are not allowed to access this page ! Go to <a href="index.php">Login Page</a> </h1>
-<?php }?>
+<div class="main_wrapper">
+	<div class="admin_container">
+		<div class="right__container">
+			<div class="logo">
+				<a href="/admindash.php"><img src="../assets/images/job-khojam-light.png" alt="jobkhojam_logo"></a>
+			</div>
+			<div class="admindashtitle">
+				
+				<h2>Welcome</h2>
+			</div>
+			<div class="admin__featuresList">
+				<ul>
+					<li><a href="userprofile.php"><i class="fa-solid fa-user"></i> Profile</a></li>
+					<li><a href=""></a></li>
+					<li><a href="../logout.php"><i class="fa-solid fa-right-from-bracket"></i> Logout</a></li>
+					<li><a href=""></a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="left__container">
+			<div class="mainbody">
+                <div class="userprofile">
+                <i class="fa-solid fa-user"></i>
+                </div>
+				<h2>Profile Work under development.</h2>
+			</div>
+		</div>
+	</div>
+
+
+    <?php 
+
+    include ('footer.php');
