@@ -17,6 +17,22 @@ display: flex;
     height:75vh;
     padding:35px;
 }
+
+
+.admin__featuresList ul{
+    list-style: none;
+    margin: 0;
+    padding:0;
+
+}
+.admin__featuresList ul li{
+    font-size:1.15rem;
+    padding-bottom:10px;
+}
+.admin__featuresList a{
+    text-decoration: none;
+    color:#fff;
+}
 .left__container{
 
 }

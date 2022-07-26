@@ -9,12 +9,6 @@ else
 }
 ?>
 
-<div class="admindashtitle">
-	<a href="admindash.php" style="float:left;margin-left:30px;font-size:20px; color:#fff;">Back to Dashboard</a>
-	<a href="../logout.php" style="float:right;margin-right:30px;font-size:20px; color:#fff;">Logout</a>
-	<h1 align="center">Welcome to Admin Dashboard</h1>
-</div>
-
 
 
 <div class="main_wrapper">
@@ -23,14 +17,18 @@ else
 			<div class="logo">
 				<a href="/admindash.php"><img src="../assets/images/jp-logo-light.png" alt="jobkhojam_logo"></a>
 			</div>
-		<?php 
-			if(!empty($_SESSION['useremail'])){
-				echo "no user";
-			} else{
-				$a_useremail=$_SESSION['useremail'];
-				echo  $_useremail;
-			}
-		?>
+			<div class="admindashtitle">
+				
+				<h2>Welcome</h2>
+			</div>
+			<div class="admin__featuresList">
+				<ul>
+					<li><a href="profile.php"><i class="fa-solid fa-user"></i> Profile</a></li>
+					<li><a href=""></a></li>
+					<li><a href="../logout.php"><i class="fa-solid fa-right-from-bracket"></i> Logout</a></li>
+					<li><a href=""></a></li>
+				</ul>
+			</div>
 		</div>
 		<div class="left__container">
 
