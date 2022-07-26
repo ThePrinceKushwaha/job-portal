@@ -272,7 +272,9 @@ font-weight: 500;
 
 
 
-#register__wrapper{
+#register__wrapper,
+#login__wrapper{
+    padding:25px 0;
 
 }
 
@@ -280,15 +282,17 @@ font-weight: 500;
 
 }
 
-.register__container{
+.register__container,
+.login__container{
     display:flex;
     padding: 10px 90px;
 }
 
-.register__leftwrapper{
+.register__leftwrapper,
+.login__leftwrapper{
     background: url(../images/onlaptop.jpg);
     background-size: cover;
-    background-color: #60b9c7;
+    background-color: #60b9c7dc;
     color: #fff;
     width: 600px;
     overflow: hidden;
@@ -308,10 +312,12 @@ font-weight: 500;
 .__right__container{
     padding: 15px 45px;
 }
-.register__info{
+.register__info,
+.login__info{
     margin-bottom:15px; 
 }
-.register__form .form-group input{
+.register__form .form-group input,
+.login__form .form-group input{
     outline:none;
     padding:7px 10px;
     border-radius:7px;
@@ -320,14 +326,55 @@ font-weight: 500;
     width:400px;
 }
 
-.register__form .form-group{
+.register__form .form-group,
+.login__form .form-group{
     padding-bottom:15px;
 }
 
+.about__wrapper,
+.contact__wrapper
+{
+    padding:10px 150px;
+}
+.about__container,
+.contact__container{
+    padding:15px 0;
+    display: flex;
+}
+.__about__info__left{
+    width:800px;
+}
+.__about__info__right{
+    padding:10px 15px;
+}
+.about__head,
+.contact__head
+{
+    background:url('https://media.istockphoto.com/photos/patan-picture-id637696304?k=20&m=637696304&s=612x612&w=0&h=GqmMtggU2LgHWcXPFNxMrZg9dtPzyrnl9ek5oARcI7Y=');
+    background-size:cover;
+    background-repeat: none;
+    background-color: #60b9c7;
+    color: #fff;
+    text-align: center;
+    font-size: 2rem;
+}
 
-
-
-
+.__about__desc{
+    text-align: justify;
+    font-size: 1.15rem;
+    line-height: 1.2rem;
+    color:#057b66;
+}
+.__job_signin_signup{
+    padding:15px;
+    background:#057b6511;
+    text-align: center;
+}
+.__text{
+    font-size: 1.15rem;
+    font-weight: 400;
+    margin-right: 15px;
+}
 
 
 footer{

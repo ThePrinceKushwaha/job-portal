@@ -15,19 +15,19 @@
         <div class="container">
             <div class="navigation__bar">
                 <div class="logo_wrapper">
-                    <img src="assets/images/jp-logo-dark.png" alt="logo">
+                    <a href="index.php"><img src="assets/images/jp-logo-dark.png" alt="logo"></a>
                 </div>
                 <div class="navigation">
                     <ul class="menu">
-                        <li><a href="#">Jobs</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="jobs.php">Jobs</a></li>
+                        <li><a href="services.php">Services</a></li>
+                        <li><a href="3">Blog</a></li>
+                        <li><a href="about.php">About Us</a></li>
+                        <li><a href="contact.php">Contact Us</a></li>
                     </ul>
                 </div>
                 <div class="login__signup">
-                    <button id="btn__login" class="btn btn-login" onClick="window.location=`register.php`">Login</button>
+                    <button id="btn__login" class="btn btn-login" onClick="window.location=`login.php`">Login</button>
                     <button id="btn__signup" class="btn btn-signup" onClick="window.location=`register.php`">Register/Signup</button>
                 </div>
             </div>

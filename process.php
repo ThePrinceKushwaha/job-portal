@@ -15,7 +15,8 @@ if(isset($_POST['submit']))
 	 $sql = "INSERT INTO jk_registeredUsers (fullname,username,email,password,cpassword,mobile,address)
 	 VALUES ('$fullname','$username','$email','$password','$cpassword','$mobile','$address')";
 	 if (mysqli_query($conn, $sql)) {
-		echo "New record created successfully !";
+		// echo "New record created successfully !";
+        
 	 } else {
 		echo "Error: " . $sql . "
 " . mysqli_error($conn);

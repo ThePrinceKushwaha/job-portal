@@ -35,7 +35,7 @@ session_start();
                     </div>
                 </div>
                 <div class="register__form">
-                    <form action="process.php" method="POST" autocomplete="off">
+                    <form action="register_process.php" method="POST" autocomplete="off">
                         <div class="form-group">
                             <label for="fullname"><i class="fa-solid fa-user"></i> <input type="text" name="fullname"  id="fullname" placeholder="Enter Full Name"></label>
                             <span id="fullnameerror"><?php //echo $fullNameErr; ?></span>
