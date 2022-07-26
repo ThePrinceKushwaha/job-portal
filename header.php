@@ -15,13 +15,13 @@
         <div class="container">
             <div class="navigation__bar">
                 <div class="logo_wrapper">
-                    <a href="index.php"><img src="assets/images/jp-logo-dark.png" alt="logo"></a>
+                    <a href="index.php"><img src="assets/images/jb-khojam-dark.png" alt="logo"></a>
                 </div>
                 <div class="navigation">
                     <ul class="menu">
-                        <li><a href="jobs.php">Jobs</a></li>
-                        <li><a href="services.php">Services</a></li>
-                        <li><a href="3">Blog</a></li>
+                        <!-- <li><a href="jobs.php">Jobs</a></li> -->
+                        <!-- <li><a href="services.php">Services</a></li> -->
+                        <li><a href="https://jobkhojam.com/blog">Blog</a></li>
                         <li><a href="about.php">About Us</a></li>
                         <li><a href="contact.php">Contact Us</a></li>
                     </ul>

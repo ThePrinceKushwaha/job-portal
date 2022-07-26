@@ -19,10 +19,11 @@
             <div class="container job__1324">
                 <div class="jp_info_1">
                         <div class="jp__info__title">
-                            <span class="jp__info_h1">Job Portal</span> for <span class="jp__recruiter">recruiters</span> and <span class="jp__jobseeker">Job seeker</span>
+                            <span class="jp__info_h1">Job Khojam</span> for <span class="jp__recruiter">recruiters</span> and <span class="jp__jobseeker">Job seeker</span>
                         </div>
                         <div class="jp__info__desc">
-                            A targeted job portal for SMEs and Startups - Hirect is a mobile-first chat-based platform that fulfills the hiring requirements of 150K+ verified recruiters. Hirect as a direct hiring app connects recruiters to 3M+ verified candidates who are searching for jobs in Indian startups. Moreover, Hirect allows for direct and private communication without the interference of consultants.
+                            A targeted job portal for SMEs and Startups - JobKhojam is the smart job finder platform that fulfills the hiring requirements of 150K+ verified recruiters. 
+                            Regardless of your profession or field, you’re probably going to find something that is relevant for you. Find your job that you deserve. Apply now and start working today.
                         </div>
                         <div class="register__now"><button  class="btn">Register Now</button></div>
                     
@@ -50,8 +51,8 @@
 
                 <div class="trendingjob__card">
                     <div class="trendcat__info">
-                        <h3>Business & Consulting</h3>
-                        <div class="trend__total">500K+ Designers</div>
+                        <h3>Front-end Developer</h3>
+                        <div class="trend__total">500K+ Developer</div>
                     </div>
                 </div>
 
@@ -59,39 +60,39 @@
                 <div class="trendingjob__card">
                     <div class="trendcat__info">
                         <h3>Full-stack Developer</h3>
-                        <div class="trend__total">500K+ Designers</div>
+                        <div class="trend__total">500K+ Developer</div>
                     </div>
                 </div>
 
                 <div class="trendingjob__card">
                     <div class="trendcat__info">
-                        <h3>Sale & Marketing</h3>
-                        <div class="trend__total">500K+ Designers</div>
+                        <h3>Content Writer</h3>
+                        <div class="trend__total">200K+ Writer</div>
                     </div>
                 </div>
 
                 <div class="trendingjob__card">
                     <div class="trendcat__info">
-                        <h3>Sale & Marketing</h3>
-                        <div class="trend__total">500K+ Designers</div>
+                        <h3>Script Writer</h3>
+                        <div class="trend__total">12K+ Writer</div>
+                    </div>
+                </div>
+                <div class="trendingjob__card">
+                    <div class="trendcat__info">
+                        <h3>VideoGrapher</h3>
+                        <div class="trend__total">450K+ VideoGrapher</div>
                     </div>
                 </div>
                 <div class="trendingjob__card">
                     <div class="trendcat__info">
                         <h3>Sale & Marketing</h3>
-                        <div class="trend__total">500K+ Designers</div>
+                        <div class="trend__total">58K+ Marketer</div>
                     </div>
                 </div>
                 <div class="trendingjob__card">
                     <div class="trendcat__info">
-                        <h3>Sale & Marketing</h3>
-                        <div class="trend__total">500K+ Designers</div>
-                    </div>
-                </div>
-                <div class="trendingjob__card">
-                    <div class="trendcat__info">
-                        <h3>Sale & Marketing</h3>
-                        <div class="trend__total">500K+ Designers</div>
+                        <h3>Digital Marketing</h3>
+                        <div class="trend__total">113K+ Marketor</div>
                     </div>
                 </div>
             </div>

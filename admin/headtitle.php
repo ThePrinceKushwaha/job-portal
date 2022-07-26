@@ -15,7 +15,7 @@ else
 	<div class="admin_container">
 		<div class="right__container">
 			<div class="logo">
-				<a href="/admindash.php"><img src="../assets/images/jp-logo-light.png" alt="jobkhojam_logo"></a>
+				<a href="/admindash.php"><img src="../assets/images/job-khojam-light.png" alt="jobkhojam_logo"></a>
 			</div>
 			<div class="admindashtitle">
 				
