@@ -69,7 +69,13 @@ session_start();
                             <span id="agreeerror"></span>
                         </div>
                         <div class="form-group">
-                            <input type="submit" value="Create Account" name="submit" id="submit" class="btn">
+                            <input type="submit" value="Creat    if(emailCheck.test(email)){
+        document.getElementById("emailerror").innerHTML="";
+    }else{
+        document.getElementById("emailerror").innerHTML="* username must invalid. Must be between 5 to 15";
+        // alert("invalid username");
+        return false;
+    }e Account" name="submit" id="submit" class="btn">
                         </div>
                         <div class="have__account">
                             <span class="__login">Already have jobPortal account?</span> <a href="login.php" style="color:blue;">Login</a>
